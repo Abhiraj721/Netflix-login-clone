@@ -1,0 +1,138 @@
+body{
+   
+    
+    /* top, transparent black, faked with gradient */ 
+    background: rgba(22, 19, 19, 0.65) url('https://assets.nflxext.com/ffe/siteui/vlv3/c732cb00-be61-4d64-b8c3-99f022e7a123/eceef24d-4920-430f-988b-d2f48f8ad060/IN-en-20220620-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    position: relative;
+     height: 900px;
+     width: 100%;
+    /* background-attachment: fixed; */
+    background-position: center center;
+    color: white;
+    /* align-items: center;
+    text-align: center; */
+    align-items: center;
+    align-content: center;
+
+    
+}
+.head{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 28px;
+    opacity: 8;
+}
+.icon{
+    position:absolute;
+    margin: 0px;
+    bottom: 789px;
+    padding: 12px;
+}
+.formbox{
+    height: 515px;
+    width: 499px;
+    background-color: black;
+    opacity: 0.5;
+    position: relative;
+ 
+    
+    align-items: center;
+    
+    align-content: center;
+    
+}
+.captions{
+    height: 190px;
+    width: 400px;
+    background-color:transparent;
+    position: relative;
+    bottom: 160px;
+}
+.trans{
+    position: absolute;
+    height: 100px;
+    width: 211px;
+    right: 50%;
+    bottom: 628px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.enteremail{
+    color: rgb(255, 255, 255);
+    height: 50px;
+    line-height: 50px;
+    border-radius: 4px;
+    width: 300px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    position: relative;
+    left: 31%;
+    padding: 16px 20px 0px;
+}
+.givecenter{
+    position: relative;
+    left:6%;
+
+}
+.captions p{
+    
+        position: relative;
+        left:11%;
+    
+    
+}
+.rememfont{
+    color: gray;
+}
+.help{
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+}
+.needhelp{
+    position: relative;
+    left:98%;
+    bottom: 24px;
+    text-decoration: none;
+    
+
+}
+.foottext{
+    color: gray;
+    text-decoration: none;
+}
+.check{
+    position: relative;
+    left: -19px;
+}
+.non{
+visibility: hidden;
+}
+.btn{
+    width: 300px;
+    position: relative;
+    left: 31%;
+    text-align: center;
+    background-color: red;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    margin: 24px 0px 12px;
+}
+.footer{
+    background-color: black;
+    height: 150px;
+    width: 100%;
+}
+.mainfooter{
+   width: 900px;
+   align-items: center;
+}
